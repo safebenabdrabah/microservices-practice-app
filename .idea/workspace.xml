@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16328e50-7de2-402a-b63b-1d9a36111c0e" name="Changes" comment="created the microservices modules and the services">
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/entities/Customer.java" afterDir="false" />
+    <list default="true" id="16328e50-7de2-402a-b63b-1d9a36111c0e" name="Changes" comment="finished preparing the microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/controllers/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/net/safe/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/net/safe/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/net/safe/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/net/safe/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/bank-account-app/account-service",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/bank-account-app/gateway-service/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "show.run.dashboard.notification": "false",
@@ -70,8 +74,11 @@
       <recent name="net.safe.accountservice.entities" />
       <recent name="net.safe.accountservice.enums" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\bank-account-app\gateway-service\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.safe.accountservice.AccountServiceApplication" />
@@ -118,7 +125,9 @@
       <updated>1754388646522</updated>
       <workItem from="1754388649723" duration="5458000" />
       <workItem from="1754499202992" duration="2310000" />
-      <workItem from="1754501553086" duration="7481000" />
+      <workItem from="1754501553086" duration="7789000" />
+      <workItem from="1754555258360" duration="704000" />
+      <workItem from="1754562855237" duration="16323000" />
     </task>
     <task id="LOCAL-00001" summary="created the microservices modules and the services">
       <created>1754391315587</created>
@@ -134,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754391803842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished preparing the microservices">
+      <created>1754515593174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754515593174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the microservices modules and the services" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the microservices modules and the services" />
+    <MESSAGE value="finished preparing the microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished preparing the microservices" />
   </component>
 </project>
