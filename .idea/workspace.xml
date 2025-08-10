@@ -121,7 +121,7 @@
       <workItem from="1754499202992" duration="2310000" />
       <workItem from="1754501553086" duration="7789000" />
       <workItem from="1754555258360" duration="704000" />
-      <workItem from="1754562855237" duration="21333000" />
+      <workItem from="1754562855237" duration="22140000" />
     </task>
     <task id="LOCAL-00001" summary="created the microservices modules and the services">
       <created>1754391315587</created>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754820460444</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="configuring the connection between microservices">
+      <created>1754831766275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754831766275</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
