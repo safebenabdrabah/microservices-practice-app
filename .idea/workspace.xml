@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16328e50-7de2-402a-b63b-1d9a36111c0e" name="Changes" comment="finished preparing the microservices">
+    <list default="true" id="16328e50-7de2-402a-b63b-1d9a36111c0e" name="Changes" comment="configuring the connection between microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/clients/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/clients/CustomerRestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/safe/customerservice/controllers/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/net/safe/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/net/safe/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/net/safe/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/net/safe/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/entities/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,7 @@
       <recent name="C:\Users\User\IdeaProjects\bank-account-app\gateway-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.safe.accountservice.AccountServiceApplication" />
@@ -127,7 +121,7 @@
       <workItem from="1754499202992" duration="2310000" />
       <workItem from="1754501553086" duration="7789000" />
       <workItem from="1754555258360" duration="704000" />
-      <workItem from="1754562855237" duration="16323000" />
+      <workItem from="1754562855237" duration="21333000" />
     </task>
     <task id="LOCAL-00001" summary="created the microservices modules and the services">
       <created>1754391315587</created>
@@ -150,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754515593174</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="configuring the connection between microservices">
+      <created>1754820460444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754820460444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created the microservices modules and the services" />
     <MESSAGE value="finished preparing the microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished preparing the microservices" />
+    <MESSAGE value="configuring the connection between microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuring the connection between microservices" />
   </component>
 </project>
