@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16328e50-7de2-402a-b63b-1d9a36111c0e" name="Changes" comment="configuring the connection between microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/AccountServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/clients/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/clients/CustomerRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/controllers/BankAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/safe/accountservice/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/account-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-service" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/bank-account-app/gateway-service/src/main/resources",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/bank-account-app/config-service/src/main/java/net/safe/configservice/config-repo",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "show.run.dashboard.notification": "false",
@@ -69,10 +66,11 @@
       <recent name="net.safe.accountservice.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\bank-account-app\config-service\src\main\java\net\safe\configservice\config-repo" />
       <recent name="C:\Users\User\IdeaProjects\bank-account-app\gateway-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.safe.accountservice.AccountServiceApplication" />
@@ -121,7 +119,8 @@
       <workItem from="1754499202992" duration="2310000" />
       <workItem from="1754501553086" duration="7789000" />
       <workItem from="1754555258360" duration="704000" />
-      <workItem from="1754562855237" duration="22140000" />
+      <workItem from="1754562855237" duration="23001000" />
+      <workItem from="1754858654089" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="created the microservices modules and the services">
       <created>1754391315587</created>
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754831766275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="configuring the connection between microservices">
+      <created>1754836855023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754836855023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
